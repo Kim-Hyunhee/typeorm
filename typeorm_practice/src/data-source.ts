@@ -4,10 +4,10 @@ import { User } from "./entity/User";
 
 export const AppDataSource = new DataSource({
   type: "mysql",
-  host: "localhost",
+  host: "nepp-insta.co4gfm17ihoe.us-east-2.rds.amazonaws.com",
   port: 3306,
-  username: "test",
-  password: "test",
+  username: "admin",
+  password: "12341234",
   database: "test",
   synchronize: true,
   logging: false,
